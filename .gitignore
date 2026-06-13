@@ -1,0 +1,110 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Python / Flask backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+venv/
+.venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+instance/
+
+# =========================
+# Node / React frontend
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+
+# =========================
+# Docker
+# =========================
+.docker/
+docker-compose.override.yml
+
+# =========================
+# Kubernetes local files
+# =========================
+*.kubeconfig
+kubeconfig
+.kube/
+.kubectl/
+
+# Do not ignore Kubernetes YAML files.
+# We want these committed later:
+# k8s/*.yaml
+# k8s/*.yml
+
+# =========================
+# Secrets / certificates
+# =========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# Local database / temporary storage
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+data/
+tmp/
+temp/
+
+# =========================
+# Coverage / reports
+# =========================
+coverage/
+reports/
+
+# =========================
+# Misc
+# =========================
+.cache/
